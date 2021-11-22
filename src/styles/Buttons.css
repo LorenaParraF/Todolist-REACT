@@ -1,0 +1,38 @@
+.Buttons {
+  display: flex;
+  width: 50%;
+  margin: auto;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px;
+  list-style: none;
+}
+.Buttons  button {
+  display: inline-block;
+  color: #fff;
+  flex-direction: column;
+  background-color: rgb(223, 43, 208);
+  font-size: 1rem;
+  outline: none;
+  border: 1px solid hsl(180, 7%, 92%);
+  border-radius: 10px;
+  padding: 10px;
+  width: 170px;
+  height: 70px;
+  text-align: center;
+}
+
+.Buttons  button:hover {
+  display: inline-block;
+  flex-direction: column;
+  color: #fff;
+  background-color: hsl(120, 4%, 5%);
+  font-size: 1rem;
+  outline: none;
+  border: 1px solid #f7f8f7;
+  border-radius: 10px;
+  padding: 10px;
+  width: 170px;
+  text-align: center;
+  height: 70px;
+}
